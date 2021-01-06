@@ -82,7 +82,7 @@ python3 src/main.py
  > To run in VScode
  1. Open Vscode 
  2. Press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd> and select 'Python interpreter'
- 3. choose python `Wootware_script:pipenv`
+ 3. Choose python 'Wootware_script:pipenv'
  4. Open `main.py` and run
  
  
