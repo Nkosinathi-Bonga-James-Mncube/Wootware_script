@@ -59,7 +59,7 @@ password=123
 ``` 
 pip install -r requirements.txt
 ```
-7. Install additional depencies
+7. Install additional dependencies
 ```
 sudo apt-get install -y unzip xvfb libxi6 libgconf-2-4
 ```
