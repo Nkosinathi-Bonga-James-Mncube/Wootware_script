@@ -64,7 +64,7 @@ pip install -r requirements.txt
 sudo apt-get install -y unzip xvfb libxi6 libgconf-2-4
 ```
  # How to use script
- You can have two option to run the script:
+ You can have two option to display the script:
  #### a) Headless state (default)
  ![woot_4](https://user-images.githubusercontent.com/50704452/103755751-fbdd0280-5016-11eb-94e8-2f56953eae63.gif)
  
@@ -74,7 +74,7 @@ sudo apt-get install -y unzip xvfb libxi6 libgconf-2-4
  > To run selium with a user-interface(i.e browser interaction) comment out these lines in `main.py`:
  ![user-interface](https://user-images.githubusercontent.com/50704452/103752538-7eaf8e80-5012-11eb-9cc6-6fce6870e7b5.png)
  
- 
+ ## Run
  > To run in Terminal:
  ```
 python3 src/main.py
