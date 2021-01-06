@@ -12,8 +12,8 @@
 
  - Built a script to help me identify current PC components on hand at [Wootware.co.za](https://www.wootware.co.za/)
  - Also added the ability to:
-     - [x] Add items to your cart
-     - [x] Display total of items in cart to purchase at a later date
+     - [x] Add items to your cart to purchase at a later date
+     - [x] Display total cost of cart 
 # Packages
 
 - Selenium :      https://pypi.org/project/selenium/
