@@ -71,7 +71,7 @@ sudo apt-get install -y unzip xvfb libxi6 libgconf-2-4
  
  #### b) User-interface state
   ![woot_3](https://user-images.githubusercontent.com/50704452/103754324-e1a22500-5014-11eb-9538-4d014386df21.gif)
- > To run selium with a user-interface(i.e browser interaction) comment out these lines in `main.py`:
+ > To run Selenium with a user-interface(i.e browser interaction) comment out these lines in `main.py`:
  ![user-interface](https://user-images.githubusercontent.com/50704452/103752538-7eaf8e80-5012-11eb-9cc6-6fce6870e7b5.png)
  
  ## Run
