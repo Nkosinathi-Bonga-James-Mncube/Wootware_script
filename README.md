@@ -13,8 +13,9 @@
      - [x] Display total of items in cart to purchase at a later date
 # Packages
 
-- Selenium : https://pypi.org/project/selenium/
+- Selenium :      https://pypi.org/project/selenium/
 - BeautifulSoup : https://pypi.org/project/beautifulsoup4/
+- Pandas:         https://pypi.org/project/pandas/
 ----
  # Table of content
  1. [How it works](#how-it-works)
