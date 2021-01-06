@@ -74,11 +74,15 @@ sudo apt-get install -y unzip xvfb libxi6 libgconf-2-4
 python3 src/main.py
  ```
  ![woot_terminal](https://user-images.githubusercontent.com/50704452/103770580-ebd11d00-502e-11eb-9ee1-bb09559df46b.gif)
+ 
+ 
  > To run in VScode
  1. Open Vscode 
  2. Press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd> and select 'Python interpreter'
  3. choose python `Wootware_script:pipenv`
  4. Run
+ ![woot_vscode](https://user-images.githubusercontent.com/50704452/103777087-0d370680-5039-11eb-96c8-d606da7adb99.gif)
+
  
  
  ## Steps
