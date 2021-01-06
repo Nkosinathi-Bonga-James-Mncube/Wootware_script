@@ -7,7 +7,7 @@
  <img width="500" src=https://user-images.githubusercontent.com/50704452/103077826-3be4c400-45d9-11eb-8883-1c94ca26a649.png>
 </p>
 
- - Built a script to help me identify current components on hand at [Wootware.co.za](https://www.wootware.co.za/)
+ - Built a script to help me identify current Pc components on hand at [Wootware.co.za](https://www.wootware.co.za/)
  - Also added the ability to:
      - [x] Add items to your cart
      - [x] Display total of items in cart to purchase at a later date
