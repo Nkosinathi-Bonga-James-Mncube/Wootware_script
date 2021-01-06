@@ -30,13 +30,12 @@
  
 
  # Installation
-
  1. Install pipenv
  ```
  pip install pipenv
  ```
  2. Clone repo
- 3. Enter `/woot_script` and open `.env` (it will be hidden in terminal) and enter registered user details for Wootware.co.za (email and password) to be used to sign in
+ 3. Open `.env` (it will be hidden in terminal) and enter registered user details for Wootware.co.za (email and password) to be used to sign in
 ```
 //Example
 email=test@gmail.com
@@ -70,11 +69,18 @@ sudo apt-get install -y unzip xvfb libxi6 libgconf-2-4
  ![user-interface](https://user-images.githubusercontent.com/50704452/103752538-7eaf8e80-5012-11eb-9cc6-6fce6870e7b5.png)
  
  
- > N.B. If plan on running the script in a terminal ,enter `/woot-script` and type:
+ > To run in Terminal:
  ```
 python3 src/main.py
  ```
  ![woot_terminal](https://user-images.githubusercontent.com/50704452/103770580-ebd11d00-502e-11eb-9ee1-bb09559df46b.gif)
+ > To run in VScode
+ 1. Open Vscode 
+ 2. Press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd> and select 'Python interpreter'
+ 3. choose python `Wootware_script:pipenv`
+ 4. Run
+ 
+ 
  ## Steps
  1. User is prompted to enter values that correspond to components needed. eg
  ```python 
