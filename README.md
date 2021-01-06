@@ -64,7 +64,7 @@ pip install -r requirements.txt
 sudo apt-get install -y unzip xvfb libxi6 libgconf-2-4
 ```
  # How to use script
- You can have two option to display the script:
+ You can have two option on how to use the script:
  #### a) Headless state (default)
  ![woot_4](https://user-images.githubusercontent.com/50704452/103755751-fbdd0280-5016-11eb-94e8-2f56953eae63.gif)
  
