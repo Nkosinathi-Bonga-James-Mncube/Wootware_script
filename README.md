@@ -1,5 +1,7 @@
 # wootware_script
-> Please note: The script is for learning purposes and not for any malicious intent 
+> Please note: The script is for learning purposes and not for any malicious intent
+
+> Script working as of 6 Jan 2021
 
 <p align="center">
  <img width="500" src=https://user-images.githubusercontent.com/50704452/103077826-3be4c400-45d9-11eb-8883-1c94ca26a649.png>
