@@ -80,7 +80,7 @@ python3 src/main.py
  1. Open Vscode 
  2. Press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd> and select 'Python interpreter'
  3. choose python `Wootware_script:pipenv`
- 4. Run
+ 4. Open `main.py` and run
  ![woot_vscode](https://user-images.githubusercontent.com/50704452/103777087-0d370680-5039-11eb-96c8-d606da7adb99.gif)
 
  
