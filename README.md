@@ -1,4 +1,4 @@
-![](https://komarev.com/ghpvc/?username=Nkosinathi-Bonga-James-Mncube)
+
 # wootware_script
 > Please note: The script is for learning purposes and not for any malicious intent
 
