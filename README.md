@@ -83,20 +83,6 @@ python3 src/main.py
  4. Open `main.py` and run
  ![woot_vscode](https://user-images.githubusercontent.com/50704452/103777087-0d370680-5039-11eb-96c8-d606da7adb99.gif)
 
- 
- 
- ## Steps
- 1. User is prompted to enter values that correspond to components needed. eg
- ```python 
- 1:'Internal Hard Drives', 2:'Processors / CPUs', 3:'Graphics Cards', 4:'Memory / RAM'
- ```
- 2. Login with credentials (email + password) that it returns from `.env` file
- 3. The script waits to retrieve list from the website of items on hand.If the user wants to add items in cart, they can enter code coresponding to item
- ```
- Please enter component for cart (Spaces between them e.g e-1 e12 e-33 )
- ```
- 4. The items will added to cart with total cost displayed of cart
- 
 #  Troubleshoot
 If you have any issue with geckodriver try installing 
 ```
