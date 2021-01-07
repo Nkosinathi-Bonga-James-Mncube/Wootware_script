@@ -39,7 +39,7 @@ def add_components():
     user_components=list(dict.fromkeys(user_components)) # removes duplicates
     shopping_list =[comp[x] for x, y in zip(user_components,comp)]
 ```
- - `navigate_pages()` then determines which pages it needs to navigate to based on `shopping_list`. 
+ - `navigate_pages()` creates lists on which pages it needs to navigate to based on `shopping_list`. 
  ```python
  def navigate_pages(value):
     comp = {
@@ -48,6 +48,7 @@ def add_components():
         'Graphics Cards':'https://bit.ly/37rmDY7', 
         'Memory / RAM':'https://bit.ly/37qO5oU'
     }
+    links=[comp[k] for k in value]
  ```
  - `website_nav()` handles the selenium automation aswell as use `get_scrap()` to webscrape pages on Wootware.co.za to create list of conponents(e.g list of CPUs) into a dataframe called `dataframe_results`
  ```python
