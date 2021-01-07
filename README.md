@@ -95,6 +95,10 @@ pip install -r requirements.txt
 ```
 sudo apt-get install -y unzip xvfb libxi6 libgconf-2-4
 ```
+8. To deactivate virtual environment when you are done with the script
+```
+deactivate
+```
  # How to use script
  You can have two options on how to use the script:
  #### a) Headless state (default)
