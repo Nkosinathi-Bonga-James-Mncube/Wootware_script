@@ -13,7 +13,8 @@
  - Built a script to help me identify current PC components on hand at [Wootware.co.za](https://www.wootware.co.za/)
  - Also added the ability to:
      - [x] Add items to your cart to purchase at a later date
-     - [x] Display total cost at the end of adding items 
+     - [x] Display total cost at the end of adding items
+----
 # Packages
 
 - Selenium :      https://pypi.org/project/selenium/
@@ -29,10 +30,38 @@
 
  # How it works
  - `add_components()` function is used to prompt user for which component/s it need to retrieve from website stored in `shopping_list`
- - `navigate_pages()` then determines which pages it needs to navigate to based on `shopping_list`.  
- - `website_nav()` handles the selenium automation aswell use `get_scrap()` to webscrape pages to create list of conponents(e.g list of CPUs) into a dataframe called `data`
+```python
+def add_components():
+    comp = {1:'Internal Hard Drives', 2:'Processors / CPUs', 3:'Graphics Cards', 4:'Memory / RAM'}
+    print("** Please enter components needed at Wootware.co.za**\n\n1. Internal Hard Drives\n2. Processors / CPUs\n3. Graphics Cards\n4. Memory / RAM\n")
+    user_components= list(map(int,input("Please enter component needed (Spaces between them e.g 1 2 3 ) : ").split())) 
+    user_components=list(dict.fromkeys(user_components)) # removes duplicates
+    shopping_list =[comp[x] for x, y in zip(user_components,comp)]
+```
+ - `navigate_pages()` then determines which pages it needs to navigate to based on `shopping_list`. 
+ ```python
+ def navigate_pages(value):
+    comp = {
+        'Internal Hard Drives':'https://bit.ly/3ahXX66', 
+        'Processors / CPUs':'https://bit.ly/3r4bfsS',
+        'Graphics Cards':'https://bit.ly/37rmDY7', 
+        'Memory / RAM':'https://bit.ly/37qO5oU'
+    }
+ ```
+ - `website_nav()` handles the selenium automation aswell as use `get_scrap()` to webscrape pages to create list of conponents(e.g list of CPUs) into a dataframe called `dataframe_results`
+ ```python
+dataframe_results=get_scrap(driver.current_url)
+df_list.append(dataframe_results)  
+ ```
  - `cart_components` returns a list of items the users want to purchase based on code (e.g e-0,e-1,e-2 etc.)
- - `get_link()` is functions that automates adding to cart based on `cart_components` with then displaying the cart total at the end
+ ```python
+ list(input("Please enter component for cart (Spaces between them e.g e-1 e12 e-33 ) : ").split())
+ ```
+ - `get_link()` is functions that automates adding to cart based on `cart_components` which then displays the cart total at the end
+ ```python
+ cart_button=driver.find_element_by_id('product-addtocart-button').click()
+ y=driver.find_element_by_css_selector('div.subtotal span.price')
+ ```
  
 
  # Installation
@@ -47,15 +76,15 @@
 email=test@gmail.com
 password=123
 ```
- 4. Create pipenv type
+ 4. Create pipenv
  ```
  pipenv --three
  ```
- 5. Activate virtual environment type
+ 5. Activate virtual environment
  ```
  pipenv shell
  ```
- 6. To install packages type
+ 6. To install packages
 ``` 
 pip install -r requirements.txt
 ```
@@ -75,15 +104,15 @@ sudo apt-get install -y unzip xvfb libxi6 libgconf-2-4
  ![user-interface](https://user-images.githubusercontent.com/50704452/103752538-7eaf8e80-5012-11eb-9cc6-6fce6870e7b5.png)
  
  ## Run
- > To run in Terminal:
+ > To run in Terminal
  ```
 python3 src/main.py
  ```
  ![woot_terminal](https://user-images.githubusercontent.com/50704452/103770580-ebd11d00-502e-11eb-9ee1-bb09559df46b.gif)
  
  
- > To run in VScode
- 1. Open Vscode 
+ > To run in VScode:
+ 1. Open VScode 
  2. Press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd> and select 'Python interpreter'
  3. Choose python 'Wootware_script:pipenv'
  4. Open `main.py` and run
