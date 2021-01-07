@@ -57,7 +57,7 @@ df_list.append(dataframe_results)
  ```python
  list(input("Please enter component for cart (Spaces between them e.g e-1 e12 e-33 ) : ").split())
  ```
- - `get_link()` is functions that automates adding to cart based on `cart_components` which then displays the cart total at the end
+ - In `for_scrapping.py` the `get_link()` function handles automating adding to cart based on `cart_components` which then displays the cart total at the end
  ```python
  cart_button=driver.find_element_by_id('product-addtocart-button').click()
  y=driver.find_element_by_css_selector('div.subtotal span.price')
