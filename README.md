@@ -24,7 +24,7 @@
  # Table of content
  1. [How it works](#how-it-works)
  2. [Installation](#installation)
- 3. [How to use script](#how-to-use-script)
+ 3. [How to use script(Demo)](#how-to-use-script)
  4. [Troubleshoot](#Troubleshoot)
 ----
 
@@ -61,6 +61,7 @@ df_list.append(dataframe_results)
  ```python
  cart_button=driver.find_element_by_id('product-addtocart-button').click()
  y=driver.find_element_by_css_selector('div.subtotal span.price')
+ print('------------------------\nTotal in cart: ' ,y.get_attribute('innerHTML'),'\n------------------------\nBye!')  
  ```
  
 
