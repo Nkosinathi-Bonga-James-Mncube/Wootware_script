@@ -29,7 +29,7 @@
 ----
 
  # How it works
- - `add_components()` function is used to prompt user for which component/s it need to retrieve from website stored in `shopping_list`
+ - `add_components()` function prompts user which component/s it needs to retrieve from website to be stored in `shopping_list`
 ```python
 def add_components():
     comp = {1:'Internal Hard Drives', 2:'Processors / CPUs', 3:'Graphics Cards', 4:'Memory / RAM'}
@@ -48,7 +48,7 @@ def add_components():
         'Memory / RAM':'https://bit.ly/37qO5oU'
     }
  ```
- - `website_nav()` handles the selenium automation aswell as use `get_scrap()` to webscrape pages to create list of conponents(e.g list of CPUs) into a dataframe called `dataframe_results`
+ - `website_nav()` handles the selenium automation aswell as use `get_scrap()` to webscrape pages on Wootware.co.za to create list of conponents(e.g list of CPUs) into a dataframe called `dataframe_results`
  ```python
 dataframe_results=get_scrap(driver.current_url)
 df_list.append(dataframe_results)  
