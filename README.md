@@ -10,7 +10,7 @@
  <img width="500" src=https://user-images.githubusercontent.com/50704452/103077826-3be4c400-45d9-11eb-8883-1c94ca26a649.png>
 </p>
 
- - Built a script to help me identify current PC components on hand at [Wootware.co.za](https://www.wootware.co.za/)
+ - Built a script to retrieve prices of current PC components on hand at [Wootware.co.za](https://www.wootware.co.za/)
  - Also added the ability to:
      - [x] Add items to your cart to purchase at a later date
      - [x] Display total cost at the end of adding items
