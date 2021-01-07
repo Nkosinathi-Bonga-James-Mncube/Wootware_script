@@ -20,6 +20,7 @@
 - Selenium :      https://pypi.org/project/selenium/
 - BeautifulSoup : https://pypi.org/project/beautifulsoup4/
 - Pandas:         https://pypi.org/project/pandas/
+- Python-decouple: https://pypi.org/project/python-decouple/
 ----
  # Table of content
  1. [How it works](#how-it-works)
