@@ -39,7 +39,7 @@ def add_components():
     user_components=list(dict.fromkeys(user_components)) # removes duplicates
     shopping_list =[comp[x] for x, y in zip(user_components,comp)]
 ```
- - `navigate_pages()` creates lists on which pages it needs to navigate to based on `shopping_list`. 
+ - `navigate_pages()` creates array on which pages it needs to navigate to based on `shopping_list`. 
  ```python
  def navigate_pages(value):
     comp = {
